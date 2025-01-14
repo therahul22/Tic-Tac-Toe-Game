@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(218, 195, 195);
+}
+
+h1{
+    text-align: center;
+    color: white;
+    background-color: 344139;
+    padding: 25px;
+}
+
+.game-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container-2{
+    text-align: center;
+}
+
+.turn-info{
+    margin: 50px;
+}
+
+h2{
+    color: rgb(48, 50, 56);
+    padding: 12px;
+    background-color: #9D8189;
+    border-radius: 10px;
+}
+
+.show-turn{
+    padding: 12px;
+    font-size: 50px;
+}
+
+.game{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 400px;
+    gap: 8px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    color: #344139;
+    background-color: #9D8189;
+    border-radius: 10px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-container{
+    text-align: center;
+}
+
+button{
+    color: white;
+    background-color: 344139;
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.winText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    margin: 30px;
+    color: 344139;
+    background-color: rgb(88, 99, 99);
+    border-radius: 15px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.hidden{
+    display: none;
+}
